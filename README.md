@@ -1,1 +1,1 @@
-I am trying to be a better programmer, so I am going to be coding more and pushing to this repository.
+Some personal projects that I have been working on.
