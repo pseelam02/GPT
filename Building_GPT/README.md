@@ -1,1 +1,7 @@
-This is a transformer bigram model that predicts shakespeare
+This is a transformer bigram model that predicts txt.
+
+Project vision:
+- Clean office dataset
+- train model on cleaned data set
+- create api to call model
+- create a simple website to interact with api
