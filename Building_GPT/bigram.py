@@ -45,16 +45,16 @@ def get_batch(split):
 
 @torch.no_grad()
 def estimate_loss():
-    out = {}
-    model.eval()
-    for split in ['train', 'val']:
-        losses = torch.zeros(eval_iters)
-        for k in range(eval_iters):
-            X, Y = get_batch(split)
-            logits, loss = model(X, Y)
-            losses[k] = loss.item()
-        out[split] = losses.mean()
-    model.train()
+    out = {} #stores the average loss values for the train and val splits
+    model.eval() #model is now in eval mode
+    for split in ['train', 'val']: #this function estimates the loss seperately for the training and validation datasets
+        losses = torch.zeros(eval_iters) #creates a 1 dimensional tensor of eval_iters size
+        for k in range(eval_iters): #calulating the loss for eval_iters number of times
+            X, Y = get_batch(split) #retrieves a single batch of input sequences
+            logits, loss = model(X, Y) #calculates the loss between targets and batch
+            losses[k] = loss.item() #extracts your loss
+        out[split] = losses.mean() #calculates the average loss
+    model.train() #setting the model back to training mode
     return out
 
 # super simple bigram model
