@@ -4,4 +4,4 @@ Project vision:
 - Clean dataset
 - train model on cleaned data set
 - create api to call model
-- create a simple website to interact with api
+- create a simple website to interact with model
