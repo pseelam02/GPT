@@ -1,1 +1,1 @@
-Building my first bigram transformer nueral network
+Building and training my first bigram transformer nueral network
