@@ -6,6 +6,9 @@ https://www.youtube.com/watch?v=kCc8FmEb1nY
 The research paper that started everything:
 https://arxiv.org/pdf/1706.03762
 
+To Do:
+Train this model on a different corpus of text data!
+
 A diagram of the decoder only architecture from Transformers:
 ![image](https://github.com/user-attachments/assets/860fad93-fba3-48bd-a0f2-0c1eb979c7cd)
 
