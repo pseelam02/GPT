@@ -1,4 +1,4 @@
-Building and training my first bigram transformer nueral network. This is a decoder-only model, that does not explicitly answer questions, rather it autocompletes Shakespeare. This is because I skipped out on the finetuning stages after the model was trained. 
+Building and training a bigram transformer nueral network. This is a decoder-only model, that does not explicitly answer questions, rather it autocompletes Shakespeare. This is because I skipped out on the finetuning stages after the model was trained. You can see the dataset I used to train the model in this repository as well.
 
 
 Model Parameters - 10.78 Million
