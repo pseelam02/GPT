@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=kCc8FmEb1nY
 The research paper that started everything:
 https://arxiv.org/pdf/1706.03762
 
-Training
+Training-
 I trained this model on an extremely powerful GPU. Nvidia Tesla-T4, allowing me to train this model in about 30 minutes. 
 
 To Do:
