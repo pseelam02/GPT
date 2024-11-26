@@ -1,8 +1,8 @@
-## Building and training a bigram transformer nueral network. This is a decoder-only model, that does not explicitly answer questions, rather it autocompletes Shakespeare. This is because I skipped out on the finetuning stages after the model was trained. You can see the dataset I used to train the model in this repository as well.
+### Building and training a bigram transformer nueral network. This is a decoder-only model, that does not explicitly answer questions, rather it autocompletes Shakespeare. This is because I skipped out on the finetuning stages after the model was trained. You can see the dataset I used to train the model in this repository as well.
 
 
-# Model Parameters - 10.78 Million
-# Model Hyperparameters - 
+#### Model Parameters - 10.78 Million
+#### Model Hyperparameters - 
 batch_size = 64 # how many independent sequences will we process in parallel?
 
 block_size = 256 # what is the maximum context length for predictions?
